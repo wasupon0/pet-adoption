@@ -30,7 +30,7 @@ body {
   max-width: 525px;
 }
 
-.top-section p {
+.intro-text {
   font-size: 1.25rem;
   line-height: 170%;
   margin: 1rem 0;
@@ -59,4 +59,14 @@ body {
 
 .utility-mr {
   margin-right: 10px;
+}
+
+.intro-feature {
+  border: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.intro-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 16px;
 }
